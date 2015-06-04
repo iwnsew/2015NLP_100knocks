@@ -24,9 +24,9 @@ def main():
  		# 単語の出現頻度順位を横軸，その出現頻度を縦軸として，両対数グラフをプロットせよ←R
  	# print sorted(set(ranking))
  	# print len(set(ranking))
- 	pos_frequency_list = sorted(set(ranking), reverse=True)
+ 	pos_frequency_list = sorted(ranking, reverse=True)
  	X = []
-	for x in xrange(len(set(ranking))):
+	for x in xrange(len(ranking)):
 		# print x
 		num = x + 1
 		# print num
